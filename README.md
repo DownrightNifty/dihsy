@@ -1,3 +1,7 @@
+https://doesioshavesideloadingyet.com/
+
+---
+
 Build requirements:
 
 * Linux or macOS
