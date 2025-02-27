@@ -1,4 +1,8 @@
+# Does iOS have sideloading yet?
+
 https://doesioshavesideloadingyet.com/
+
+A resource to track the status of sideloading on iOS.
 
 ---
 
