@@ -54,7 +54,7 @@ As a developer, you don't have to be in the EU to officially [submit apps for al
 
 However, in order to actually install those apps, you need to be in the EU (or at least, your device needs to believe that you are). Apple utilizes hardware sensors to determine the user's geographical location in order to check eligibility for alternative apps and marketplaces as required in the EU, in addition to requiring an Apple ID registered in the EU.
 
-It has been demonstrated to be possible to spoof some of these checks and access EU-exclusive features such as alternative apps outside the EU on iPhones and iPads. You may read my blog post about it here. (There are no guarantees that Apple won't make it more difficult to spoof these checks in the future, so you shouldn't rely on this.)
+It has been demonstrated to be possible to spoof some of these checks and access EU-exclusive features such as alternative apps outside the EU on iPhones and iPads. You may read my blog post about it [here](https://downrightnifty.me/blog/2025/02/27/eu-features-outside.html). (There are no guarantees that Apple won't make it more difficult to spoof these checks in the future, so you shouldn't rely on this.)
 
 Once a device detects that it has left the EU, **alternative apps that have already been installed will continue to work**, but they will no longer receive updates after a 30-day grace period until the device moves back to the EU.
 
@@ -253,7 +253,7 @@ Cons:
 You can check if your device can be jailbroken [here](https://ios.cfw.guide/). (Hint: probably not.)
 
 # ℹ️ Who made this website and why?
-Hi, I'm Matt. I currently use a Google Pixel (Android) phone, an iPad, and a MacBook Pro. I'll probably switch to iPhone if the answer to the question this site poses ever becomes "yes".
+Hi, I'm [Matt](https://downrightnifty.me/). I currently use a Google Pixel (Android) phone, an iPad, and a MacBook Pro. I'll probably switch to iPhone if the answer to the question this site poses ever becomes "yes".
 
 As part of a university project, I recently developed an iOS app that keeps track of your expenses and receipts. It's not polished enough to submit to the App Store, but it would have been quite useful to me personally.
 
