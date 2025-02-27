@@ -1,0 +1,20 @@
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-bottom: 4px;
+}
+
+#home-icon {
+  margin-right: 3px;
+}
+
+.title-section {
+  border-width: 3px;
+}
+
+.p-heading {
+  margin-top:0px;
+}
