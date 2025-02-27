@@ -19,14 +19,14 @@ body {
 */
 .img2 {
   border: 1px solid var(--text-color);
-  width: 486px;
+  max-width: 486px;
 }
 
 /*
   no_longer_available.png
 */
 .img5 {
-  width: 350px;
+  max-width: 350px;
 }
 
 .table-div {
