@@ -1,0 +1,10 @@
+.DS_Store
+.venv
+
+tmp
+
+dihsy_converted.html
+index_generated.html
+index_custom.html
+
+out/
