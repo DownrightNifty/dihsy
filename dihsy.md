@@ -313,4 +313,4 @@ I'll try to keep the website up to date as the status of sideloading and alterna
 
 [^11]: <https://www.statista.com/statistics/382260/segments-share-revenue-of-apple/>{.raw-link}
 
-[^12]: Expected to enter into force by 6/5/2025, according to [*Valor International*](https://valorinternational.globo.com/law/news/2025/03/06/circuit-court-reinstates-antitrust-ruling-against-apple.ghtml).
+[^12]: Expected to enter into force by 6/5/2025, according to [*Valor International*](https://valorinternational.globo.com/law/news/2025/03/06/circuit-court-reinstates-antitrust-ruling-against-apple.ghtml) and [*The Verge*](https://www.theverge.com/news/625753/apple-ios-alternative-app-stores-sideloading-brazil).
