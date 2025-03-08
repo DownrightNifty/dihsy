@@ -142,7 +142,7 @@ Sideloading may not be safe for users who are not technically literate or are ge
 This is often touted as a reason why iOS should not support sideloading at all, but I wholeheartedly disagree. Even if sideloading isn't made generally available to all users, it can still be made available to technically-inclined users only. This isn't a trivial task, and requires a bit of thought to implement correctly, but it's very much possible and has [already been done before](#case-study-chromeos).
 
 # 🤔 What would it mean for iOS to "have" sideloading?
-For the purposes of this website, an operating system supports sideloading if it provides some means for technically-inclined end users to permanently install native apps [^7] without prior approval from any company or organization, either free of charge, or for a reasonable one-time fee.
+For the purposes of this website, an operating system sideloading supports sideloading if it provides some officially-supported method allowing technically-inclined end users to (permanently) install [^13] native apps [^7] without any involvement of the device manufacturer, distributor, or their partners.
 
 An operating system does not need to endorse, recommend, or make it easy to sideload in order for it to support sideloading as an option. Operating systems that only allow advanced users to sideload through scare prompts, hidden "development" modes, or any other methods still count. Operating systems that require a one-time payment (within reason) to unlock sideloading, or which require you to accept some basic terms (within reason) before you enable sideloading would also count. Operating systems employing any combination of the described techniques, or any other techniques, to discourage sideloading for the average user, or to prevent social engineering attacks convincing users to enable sideloading, still count.
 
@@ -150,7 +150,7 @@ For example, [we consider Chrome OS](#case-study-chromeos) to support sideloadin
 
 Apple would not have to make sweeping changes to iOS in order to qualify; in fact, a minor policy change would be more than sufficient. For example, all it would take to qualify is for Apple to remove the unnecessary expiry dates from development certificates (which can only be used on the creator's own devices, and cannot be used for distribution). They currently expire after 7 days for free accounts, or 1 year for paid accounts.
 
-There are several community-supported unofficial sideloading methods for iOS, but we don't consider those to count, because they aren't guaranteed to continue working through iOS security updates, they aren't authorized by Apple and may break Apple's end user license agreement, and they have significant downsides.
+There are several [community-supported unofficial sideloading methods](#how-do-i-sideload-unofficially-on-ios) for iOS, but those aren't guaranteed to continue working through iOS security updates, they aren't authorized by Apple and may break Apple's end user license agreement, they have significant downsides, and they don't qualify for reasons as per the first paragraph above.
 
 # 💻 Do other devices support sideloading?
 All mainstream operating systems for computing devices, besides iOS/iPadOS, support sideloading in some capacity.
@@ -222,7 +222,7 @@ For technical information about the region-locked regulatory compliance features
 ## AltStore
 [AltStore](https://altstore.io/) abuses Xcode's signing service, which is intended for developers to test their apps in a limited capacity before uploading them to the App Store.
 
-Apple provides development certificates lasting 7 days for free accounts, or 1 year for paid accounts. Apps signed this way can only be installed on the developer's registered devices and can't be directly distributed to other users. iOS refuses to launch apps with expired certificates.
+Apple provides development certificates lasting 7 days for free accounts, or 1 year for paid accounts ($100/yr, or ~$8.33/mo billed annually). Apps signed this way can only be installed on the developer's registered devices and can't be directly distributed to other users. iOS refuses to launch apps with expired certificates.
 
 AltStore connects to a server running on your computer and automatically requests the re-signing of sideloaded applications every so often, ideally preventing them from ever expiring.
 
@@ -314,3 +314,5 @@ I'll try to keep the website up to date as the status of sideloading and alterna
 [^11]: <https://www.statista.com/statistics/382260/segments-share-revenue-of-apple/>{.raw-link}
 
 [^12]: Expected to enter into force by 6/5/2025, according to [*Valor International*](https://valorinternational.globo.com/law/news/2025/03/06/circuit-court-reinstates-antitrust-ruling-against-apple.ghtml) and [*The Verge*](https://www.theverge.com/news/625753/apple-ios-alternative-app-stores-sideloading-brazil).
+
+[^13]: "Install" in the same sense as when you install any non-sideloaded app—the installation should be permanent, and the app shouldn't suddenly expire after a certain period of time, requiring an Internet connection and contact with a centralized signing service before it can be reinstalled. For example, apps sideloaded using AltStore on iOS aren't really "installed" so much as they are "temporarily loaded for testing/debugging purposes".
