@@ -18,4 +18,18 @@
         </author>
         <content type="html"><![CDATA[The website was launched.]]></content>
     </entry>
+    <entry>
+        <title type="html">[Changelog] [News] Legislation in Brazil mandates "sideloading"</title>
+        <published>2025-03-07T00:00:00-06:00</published>
+        <updated>2025-03-07T00:00:00-06:00</updated>
+        <id>urn:uuid:bec9f39e-61b0-4314-978b-b8e75687d3b3</id>
+        <author>
+            <name>Matt Kunze</name>
+        </author>
+        <content type="html"><![CDATA[<p>From <a href="https://www.theverge.com/news/625753/apple-ios-alternative-app-stores-sideloading-brazil">The Verge</a>:</p>
+<blockquote>
+<p>Apple has been told it has to allow alternative app stores on iOS in Brazil within 90 days, as reported by Brazilian publication Valor International and 9to5Mac.</p>
+</blockquote>
+<p>I've updated the website to reflect this information.</p>]]></content>
+    </entry>
 </feed>

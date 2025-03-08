@@ -200,14 +200,15 @@ Another important difference between macOS and iOS notarization is that **users 
 
 Legislation regarding "sideloading" or alternative app stores is currently being developed, considered, or implemented in quite a few countries. TPAS refers to "third party app stores".
 
-| Effective as of | Country/region | Legislation/ruling                                                                                                                        | Allows TPAS?                      | Allows sideloading?      | Status |
-| :-------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ------------------------ | ------------ |
-| 11/1/2022       | European Union | [Digital Markets Act](https://digital-markets-act.ec.europa.eu/index_en)                                                                  | Yes                               | No, as of now [^2] | Implemented          |
-| 5/24/2024       | United Kingdom | [Digital Markets, Competition and Consumers Act](https://www.gov.uk/guidance/how-the-uks-digital-markets-competition-regime-works)        | ?                                 | ?                        | Passed          |
-|                 | Australia      | [Amendment to Competition and Consumer Act 2010](https://treasury.gov.au/consultation/c2024-547447)                                       | ?                                 | ?                        | Proposed           |
-| 6/12/2024       | Japan          | [Act on Promotion of Competition for Specified Smartphone Software](https://www.jftc.go.jp/en/pressreleases/yearly-2024/June/240612.html) | Yes                               | ? [^3]                | Passed [^9]  |
-|                 | United States  | [Open App Markets Act](https://www.congress.gov/bill/117th-congress/senate-bill/2710/text?r=23&s=1), among others                         | Yes                               | ? [^4]                | Proposed           |
-| 10/7/2024       | United States  | [Epic Games v. Google](https://www.theregister.com/2024/10/07/google_android_play_store_epic/)                                            | Yes, on Android for 3 yrs [^5] | ? [^6]                | Passed          |
+| Effective as of | Country/region | Legislation/ruling                                                                                                                        | Allows TPAS?                   | Allows sideloading? | Status      |
+| :-------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------------- | ----------- |
+| 11/1/2022       | 🇪🇺 European Union | [Digital Markets Act](https://digital-markets-act.ec.europa.eu/index_en)                                                                  | Yes                            | No, as of now [^2]  | Implemented |
+| 6/12/2024       | 🇯🇵 Japan          | [Act on Promotion of Competition for Specified Smartphone Software](https://www.jftc.go.jp/en/pressreleases/yearly-2024/June/240612.html) | Yes                            | ? [^3]              | Passed [^9] |
+| 3/6/2025        | 🇧🇷 Brazil         | [Mercado Libre v. Apple](https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_documento_consulta_externa.php?HJ7F4wnIPj2Y8B7Bj80h1lskjh7ohC8yMfhLoDBLddbbVtapRDlsIRSGO8EfHGTjlAvVixwsF8RWAxY7K1lOCwlw9mGBV9xj89bT7n1aVU7T0oE2YGB0rHOHC39OrFWc) | Yes | ? | Passed [^12] |
+| 10/7/2024       | 🇺🇸 United States  | [Epic Games v. Google](https://www.theregister.com/2024/10/07/google_android_play_store_epic/)                                            | Yes, on Android for 3 yrs [^5] | ? [^6]              | Passed      |
+| 5/24/2024       | 🇬🇧 United Kingdom | [Digital Markets, Competition and Consumers Act](https://www.gov.uk/guidance/how-the-uks-digital-markets-competition-regime-works)        | ?                              | ?                   | Passed      |
+|                 | 🇦🇺 Australia      | [Amendment to Competition and Consumer Act 2010](https://treasury.gov.au/consultation/c2024-547447)                                       | ?                              | ?                   | Proposed    |
+|                 | 🇺🇸 United States  | [Open App Markets Act](https://www.congress.gov/bill/117th-congress/senate-bill/2710/text?r=23&s=1), among others                         | Yes                            | ? [^4]              | Proposed    |
 
 For technical information about the region-locked regulatory compliance features currently implemented in iOS, see the Apple Wiki article on Apple's [Eligibility system](https://theapplewiki.com/wiki/Eligibility#Domains).
 
@@ -306,8 +307,10 @@ I'll try to keep the website up to date as the status of sideloading and alterna
 
 [^8]: "Modifications you make to the system are not supported by Google, may cause hardware issues and may void warranty." Source: [Image of developer mode setup process](https://www.cnet.com/a/img/resize/97f0e8aff2aacc32107f1ab60c3ccb08b9b1ff0a/hub/2014/03/18/4de7092f-b0d3-11e3-a24e-d4ae52e62bcc/ChromeLinux-4.png?auto=webp&width=1200).
 
-[^9]: Expected to enter into force by the end of 2025, according to [Kyodo News](https://english.kyodonews.net/news/2024/06/bc2d7f45d456-japan-enacts-law-to-curb-apple-googles-app-dominance.html).
+[^9]: Expected to enter into force by the end of 2025, according to [*Kyodo News*](https://english.kyodonews.net/news/2024/06/bc2d7f45d456-japan-enacts-law-to-curb-apple-googles-app-dominance.html).
 
 [^10]: Non-commercial apps don't have to pay the CTF, but non-commercial app stores, such as AltStore PAL, still do. Despite this, AltStore PAL is currently available for free thanks to a [grant from Epic Games](https://techcrunch.com/2024/08/15/epic-games-megagrant-makes-eu-alternative-app-store-altstore-pal-available-for-free/).
 
 [^11]: <https://www.statista.com/statistics/382260/segments-share-revenue-of-apple/>{.raw-link}
+
+[^12]: Expected to enter into force by 6/5/2025, according to [*Valor International*](https://valorinternational.globo.com/law/news/2025/03/06/circuit-court-reinstates-antitrust-ruling-against-apple.ghtml).

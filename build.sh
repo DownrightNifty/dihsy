@@ -5,10 +5,14 @@
 # -C: don't cleanup files
 # -W: don't watch for changes and rebuild automatically
 # -v: verbose
+# -d: debug build
+
+# debug builds:
+# - use feed_debug.xml instead of feed.xml
 
 set -e
 
-WATCHED_FILES=(./dihsy.md ./index_p1.template.html ./index_p2.template.html)
+WATCHED_FILES=(./dihsy.md ./index_p1.template.html ./index_p2.template.html ./style.css)
 OUT_DIR="$PWD/out"
 
 osx=false
@@ -43,7 +47,13 @@ build() {
     cp -r ./font-awesome "$OUT_DIR"
     cp -r ./assets "$OUT_DIR"
     cp -r ./news "$OUT_DIR"
-    cp ./feed.xml "$OUT_DIR"
+
+    if [[ $debug == true && -f ./feed_debug.xml ]]; then
+        cp ./feed_debug.xml "$OUT_DIR/feed.xml"
+    else
+        cp ./feed.xml "$OUT_DIR"
+    fi
+
     cp ./script.js "$OUT_DIR"
     cp ./style.css "$OUT_DIR"
     cp ./CNAME "$OUT_DIR"
@@ -56,6 +66,7 @@ build() {
 cleanup=true
 watch=true
 verbose=false
+debug=false
 for arg in "$@"; do
     if [[ $arg == "-C" || $arg == "--no-cleanup" ]]; then
         cleanup=false
@@ -63,6 +74,8 @@ for arg in "$@"; do
         watch=false
     elif [[ $arg == "-v" || $arg == "--verbose" ]]; then
         verbose=true
+    elif [[ $arg == "-d" || $arg == "--debug" ]]; then
+        debug=true
     fi
 done
 
