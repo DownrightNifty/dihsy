@@ -64,6 +64,7 @@ blockquote {
   border-style: solid;
   border-radius: 20px;
   padding: 20px;
+  border-width: 3px;
 }
 
 .small-rss-icon {
@@ -195,4 +196,8 @@ hr {
 
 .footnote-back {
   margin-left: 4px;
+}
+
+.raw-link {
+  overflow-wrap: break-word;
 }

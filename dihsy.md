@@ -310,4 +310,4 @@ I'll try to keep the website up to date as the status of sideloading and alterna
 
 [^10]: Non-commercial apps don't have to pay the CTF, but non-commercial app stores, such as AltStore PAL, still do. Despite this, AltStore PAL is currently available for free thanks to a [grant from Epic Games](https://techcrunch.com/2024/08/15/epic-games-megagrant-makes-eu-alternative-app-store-altstore-pal-available-for-free/).
 
-[^11]: <https://www.statista.com/statistics/382260/segments-share-revenue-of-apple/>
+[^11]: <https://www.statista.com/statistics/382260/segments-share-revenue-of-apple/>{.raw-link}
