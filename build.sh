@@ -48,6 +48,8 @@ build() {
     cp ./style.css "$OUT_DIR"
     cp ./CNAME "$OUT_DIR"
     cp ./.nojekyll "$OUT_DIR"
+    
+    cp ./.gitignore "$OUT_DIR"
 }
 
 # parse args
