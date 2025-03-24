@@ -22,3 +22,16 @@ ul {
 .p-heading {
   margin-top:0px;
 }
+
+.news-heading a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.news-heading a:visited {
+  color: var(--text-color);
+}
+
+.news-heading a:hover {
+  text-decoration: underline;
+}
