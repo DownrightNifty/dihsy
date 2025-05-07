@@ -19,17 +19,33 @@
         <content type="html"><![CDATA[The website was launched.]]></content>
     </entry>
     <entry>
-        <title type="html">[Changelog] [News] Legislation in Brazil mandates "sideloading"</title>
+        <title type="html">[News] Legislation in Brazil mandates "sideloading"</title>
+        <link href="https://doesioshavesideloadingyet.com/news#legislation-in-brazil-mandates-sideloading"></link>
         <published>2025-03-07T00:00:00-06:00</published>
-        <updated>2025-03-07T00:00:00-06:00</updated>
+        <updated>2025-05-07T00:00:00-06:00</updated>
         <id>urn:uuid:bec9f39e-61b0-4314-978b-b8e75687d3b3</id>
         <author>
             <name>Matt Kunze</name>
         </author>
         <content type="html"><![CDATA[<p>From <a href="https://www.theverge.com/news/625753/apple-ios-alternative-app-stores-sideloading-brazil">The Verge</a>:</p>
-<blockquote>
-<p>Apple has been told it has to allow alternative app stores on iOS in Brazil within 90 days, as reported by Brazilian publication Valor International and 9to5Mac.</p>
-</blockquote>
-<p>I've updated the website to reflect this information.</p>]]></content>
+          <blockquote><p>Apple has been told it has to allow alternative app stores on iOS in Brazil within 90 days, as reported by Brazilian publication Valor International and 9to5Mac.</p></blockquote>
+          <p>I've updated the website to reflect this information.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html">[News] A few updates</title>
+        <link href="https://doesioshavesideloadingyet.com/news#a-few-updates"></link>
+        <published>2025-05-07T00:00:00-06:00</published>
+        <updated>2025-05-07T00:00:00-06:00</updated>
+        <id>urn:uuid:b302fad7-52fe-4fe4-b7b6-e746ba170e38</id>
+        <author>
+            <name>Matt Kunze</name>
+        </author>
+        <content type="html"><![CDATA[<div>
+          <ul>
+            <li>[3/19/25] The court ruling in Brazil that would've required Apple to enable alternative app stores was temporarily overturned, on the grounds that the antitrust case has not yet concluded. Source: <a href="https://appleinsider.com/articles/25/03/19/apple-wont-be-forced-into-allowing-third-party-app-marketplaces-in-brazil-for-now">Apple Insider</a>.</li>
+            <li>[4/22/25] The European Commission announced preliminary findings on Apple's compliance with article 6(4) of the DMA, and sent them to Apple. Apple has the opportunity to privately respond to the findings. The findings are not currently public. Source: <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1086">European Commission</a>.</li>
+            <li>[5/7/25] The "App Store Freedom Act" was introduced in the U.S. House. Source: <a href="https://www.theverge.com/news/662180/app-store-freedom-act-apple-third-party-app-stores">The Verge</a>.</li>
+          </ul>
+        </div>]]></content>
     </entry>
 </feed>

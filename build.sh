@@ -12,7 +12,7 @@
 
 set -e
 
-WATCHED_FILES=(./dihsy.md ./index_p1.template.html ./index_p2.template.html ./style.css)
+WATCHED_FILES=(./dihsy.md ./index_p1.template.html ./index_p2.template.html ./style.css ./news/index.html ./news/style.css)
 OUT_DIR="$PWD/out"
 
 osx=false
