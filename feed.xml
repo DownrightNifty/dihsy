@@ -48,4 +48,17 @@
           </ul>
         </div>]]></content>
     </entry>
+    <entry>
+        <title type="html">[News] Brazil's "sideloading" ruling reinstated again (for now)</title>
+        <link href="https://doesioshavesideloadingyet.com/news#brazil-sideloading-2"></link>
+        <published>2025-05-22T00:00:00-06:00</published>
+        <updated>2025-05-22T00:00:00-06:00</updated>
+        <id>urn:uuid:6553da67-6b56-4599-a0fc-9fe01b35b99a</id>
+        <author>
+            <name>Matt Kunze</name>
+        </author>
+        <content type="html"><![CDATA[<div>
+          <p>The court ruling in Brazil that requires Apple to enable "sideloading" was reinstated once again. If it isn't overturned again, it should come into effect by 8/6/2025. Source: <a href="https://macmagazine.com.br/post/2025/05/08/justica-restabelece-medida-que-podera-mudar-a-app-store-no-brasil/">Mac Magazine (Portuguese)</a>.</p>
+        </div>]]></content>
+    </entry>
 </feed>
