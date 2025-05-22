@@ -157,7 +157,7 @@ All mainstream operating systems for computing devices, besides iOS/iPadOS, supp
 
 | OS         | Can sideload? | Scare screen(s)? | Dev mode only? | Must accept terms? | One-time fee? |
 | ---------- | ------------- | ---------------- | -------------- | ------------------ | ------------- |
-| Windows    | Yes           | No               | No             | No                 | No            |
+| Windows    | Yes           | 0-1 [^15]        | No             | No                 | No            |
 | macOS      | Yes           | Yes              | No             | No                 | No            |
 | ChromeOS   | Yes           | Yes              | Yes            | Yes [^8]           | No            |
 | GNU/Linux  | Yes           | No               | No             | No                 | No            |
@@ -318,3 +318,5 @@ I'll try to keep the website up to date as the status of sideloading and alterna
 [^13]: "Install" in the same sense as when you install any non-sideloaded app—the installation should be permanent, and the app shouldn't suddenly expire after a certain period of time, requiring an Internet connection and contact with a centralized signing service before it can be reinstalled. For example, apps sideloaded using AltStore on iOS aren't really "installed" so much as they are "temporarily loaded for testing/debugging purposes".
 
 [^14]: Google has appealed the decision, and was granted a temporary stay on the injunction until the appeal is processed. Source: [*The Verge*](https://www.theverge.com/2024/10/18/24271996/google-epic-lawsuit-play-third-party-app-store-changes-delayed-administrative-stay-granted).
+
+[^15]: <https://github.com/DownrightNifty/dihsy/issues/1>{.raw-link}
